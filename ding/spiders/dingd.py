@@ -7,7 +7,7 @@ from ding.items import DingItem
 from ding.items import DcontentItem
 
 class Myspider(scrapy.Spider):
-    name = 'ceshi'
+    name = 'ddxiaoshuo'
     bash_url = 'http://www.23us.so/list/'
     bashurl ='.html'
     def start_requests(self):
